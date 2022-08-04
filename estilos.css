@@ -94,136 +94,192 @@ body{
     font-size: 25px;
 }
 
-/* Services */
 
-.subtitulo{
-    color: #9f8ad0;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 30px;
+
+
+@keyframes animat {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
-.contenedor-servicio{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+
+
+
+
+
+
+
+
+
+.titulo {
+    font-size: 50px;
 }
 
-.contenedor-servicio img{
-    width: 40%;
-}
+/* About us */
 
-.checklist-servicio{
-    width: 45%;
-}
-
-.service{
-    margin-bottom: 20px;
-}
-
-.n-service{
-    margin-bottom: 7px;
-    color: #9f8ad0;
-}
-
-.number{
-    display: inline-block;
-    /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50%;
-    margin-right: 5px;
-    width: 30px;
-    height: 30px;
-    color: #fff;
-    font-weight: 700;
-}
-
-.gallery{
+.about-us {
     background: #f2f2f2;
 }
 
-.contenedor-galeria{
+.contenedor-articulo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.articulo {
+    width: 29%;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+    transition: 0.5s;
+}
+
+.articulo:hover {
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+}
+
+.articulo>i {
+    font-size: 30px;
+    color: #fff;
+    background: #1FDE82;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+}
+
+.articulo>h3 {
+    font-size: 24px;
     margin-top: 30px;
 }
 
-.img-galeria{
-    width: 30%;
-    display: block;
-    margin-bottom: 15px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
-    cursor: pointer;
+.articulo>p {
+    font-weight: 100;
+    color: #5D6678;
+    margin-top: 15px;
+    padding-bottom: 20px;
 }
 
-.imagen-light{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.534);
-    transform: translate(100%);
-    transition: transform .2s ease-in-out;
-}
-
-.agregar-imagen{
-    width: 60%;
-    transform: scale(0);
-    border-radius: 10px;
-    transition: transform .3s .2s;
-}
-
-.showImage{
-    transform: scale(1);
-}
-
-.show{
-    transform: translate(0);
-}
-
-.close{
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 40px;
-    cursor: pointer;
-}
-
-.experts{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.cont-expert{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.cont-expert img{
-    display: block;
-    margin: auto;
-    width: 80%;
-}
-
-.n-expert{
-    width: 100%;
-    display: inline-block;
-    margin-top: 20px;
+.articulo>a {
+    color: #5D6678;
     font-weight: 400;
+    text-decoration: none;
 }
+
+.articulo>a:hover {
+    color: #1FDE82;
+    transition: color .5s;
+}
+
+
+
+
+
+
+
+
+/* Breakpoints responsive */
+
+@media screen and (max-width:800px) {
+    .titulo {
+        font-size: 45px;
+    }
+
+    .textos-header {
+        margin: 0;
+    }
+
+    /* About us */
+
+    .articulo {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .titulo {
+        font-size: 35px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+ 
+    .nav {
+        padding: 0 10px;
+    }
+
+
+    .enlaces-header {
+        position: fixed;
+        background: #667db6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        clip-path: circle(0.0% at 100% 0);
+    }
+
+
+
+    /* About us */
+
+    .articulo {
+        width: 95%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background: #9f8ad0;
@@ -299,27 +355,14 @@ footer{
         font-size: 40px;
     }
 
-    .contenedor-servicio img{
-        width: 80%;
-        margin-bottom: 40px;
-    }
     
-    .checklist-servicio{
-        width: 80%;
-    }
-
     .service{
         margin-bottom: 30px;
     }
 
-    .img-galeria{
-        width: 45%;
-    }
+   
     
-    .agregarImagen{
-        width: 80%;
-    }
-
+   
     
     .cont-expert{
         width: 80%;
@@ -365,10 +408,7 @@ footer{
         font-size: 30px;
     }
 
-    .img-galeria{
-        width: 95%;
-    }
-    
+   
     .agregar-imagen{
         width: 90%;
     }
