@@ -23,7 +23,10 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/127081378_4979125598779192_8066980549296059154_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFQ41ng9rzXF6is0Q9q9EQWVsZ5XmSIvPNWxnleZIi882o4L_NULLgTxtyMgrAf1c229pea5X1e67vT8c-FRFVy&_nc_ohc=9JGdDw9ZrKIAX9Fd-zO&_nc_ht=scontent.fcuu2-1.fna&oh=00_AT_Vi6CbFI4_4SisATfuh-uhmlfBOmtO0QZjPXTa7lPwwA&oe=631109F5);
+    /* background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/127081378_4979125598779192_8066980549296059154_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFQ41ng9rzXF6is0Q9q9EQWVsZ5XmSIvPNWxnleZIi882o4L_NULLgTxtyMgrAf1c229pea5X1e67vT8c-FRFVy&_nc_ohc=9JGdDw9ZrKIAX9Fd-zO&_nc_ht=scontent.fcuu2-1.fna&oh=00_AT_Vi6CbFI4_4SisATfuh-uhmlfBOmtO0QZjPXTa7lPwwA&oe=631109F5); */
+
+
+    background-image: linear-gradient(120deg, rgb(161, 196, 253, 0.486) 0%, hsl(199, 88%, 87%, 0.514) 100%),url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/127081378_4979125598779192_8066980549296059154_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFQ41ng9rzXF6is0Q9q9EQWVsZ5XmSIvPNWxnleZIi882o4L_NULLgTxtyMgrAf1c229pea5X1e67vT8c-FRFVy&_nc_ohc=9JGdDw9ZrKIAX9Fd-zO&_nc_ht=scontent.fcuu2-1.fna&oh=00_AT_Vi6CbFI4_4SisATfuh-uhmlfBOmtO0QZjPXTa7lPwwA&oe=631109F5);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -95,6 +98,10 @@ body{
     font-size: 25px;
 }
 
+.contenedor1{
+  text-align: center;
+}
+
 
 
 
@@ -150,14 +157,14 @@ body{
 .articulo>img {
     font-size: 30px;
     color: #fff;
-    background: #1FDE82;
+    /* background: #1FDE82; */
     display: inline-block;
     width: 70px;
     height: 70px;
     text-align: center;
     /* padding-top: 20px; */
     border-radius: 50%;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    /* box-shadow: 0 8px 32px rgba(31, 222, 130, .46); */
 }
 
 .articulo>h3 {
@@ -283,7 +290,8 @@ body{
 
 
 footer{
-    background: #9f8ad0;
+    /* background: #9f8ad0; */
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     padding-bottom: 0.1px;
 }
 
