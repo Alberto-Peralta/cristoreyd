@@ -191,9 +191,93 @@ body{
     transition: color .5s;
 }
 
+.boton_misas{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4faad8;
+    border-radius: 6px;
+    /* border: 2px solid #0016b0; */
+  }
+  .boton_misas:hover{
+    background: #0082c8;
+  }
+
+  .boton_conciencia{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4faad8;
+    border-radius: 6px;
+    /* border: 2px solid #0016b0; */
+  }
+  .boton_conciencia:hover{
+    background: #0082c8;
+  }
 
 
+  .boton_telof{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4faad8;
+    border-radius: 6px;
+    /* border: 2px solid #0016b0; */
+  }
+  .boton_telof:hover{
+    background: #0082c8;
+  }
 
+  .boton_minpa{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4faad8;
+    border-radius: 6px;
+    /* border: 2px solid #0016b0; */
+  }
+  .boton_minpa:hover{
+    background: #0082c8;
+  }
+
+  
+
+
+  .boton_requisitos{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4faad8;
+    border-radius: 6px;
+    /* border: 2px solid #0016b0; */
+  }
+  .boton_requisitos:hover{
+    background: #0082c8;
+  }
+
+  .boton_avisos{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4faad8;
+    border-radius: 6px;
+    /* border: 2px solid #0016b0; */
+  }
+  .boton_avisos:hover{
+    background: #0082c8;
+  }
 
 
 
